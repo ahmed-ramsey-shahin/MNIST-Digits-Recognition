@@ -5,7 +5,7 @@ The dataset used to train the model is the [MNIST dataset](http://yann.lecun.com
 ```bash
 Digits Recognition:.
 ├───model.obj
-├───Neural Network.ipynb
+├───NeuralNetwork.py
 ├───test.csv
 └───train.csv
 ```
@@ -29,8 +29,8 @@ Contains the weights and biases for a pre trained model, the file is dumped usin
     'b3': b3
 }
 ```
-### Neural Network.ipynb
-A Jupyter Notebook contains the code for training and predicting the test set, and saving the weights and biases to the file
+### NeuralNetwork.py
+A python file which contains the code for training and predicting the test set, and saving the weights and biases to a file
 ### test.csv
 Contains the testing set as one image per row; the first column contains the label for each row.
 ### train.csv
